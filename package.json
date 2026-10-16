@@ -1,0 +1,27 @@
+{
+  "name": "studyflow-desktop",
+  "version": "1.0.0",
+  "description": "Local Desktop Study Planner, Focus Timer, Spaced Repetition & Analytics App",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev:vite": "\"C:\\Program Files\\nodejs\\node.exe\" node_modules/vite/bin/vite.js --port 5173",
+    "build": "\"C:\\Program Files\\nodejs\\node.exe\" node_modules/vite/bin/vite.js build",
+    "electron": "Launch-StudyFlow.bat",
+    "start": "Launch-StudyFlow.bat"
+  },
+  "dependencies": {
+    "lucide-react": "0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.2.1",
+    "autoprefixer": "10.4.17",
+    "concurrently": "8.2.2",
+    "electron": "22.3.27",
+    "postcss": "8.4.35",
+    "tailwindcss": "3.4.1",
+    "vite": "4.5.3",
+    "wait-on": "7.2.0"
+  }
+}
